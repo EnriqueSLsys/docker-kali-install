@@ -14,7 +14,7 @@ Script automatizado para instalar la última versión de Docker Engine y Docker 
 
 1. Descarga el script:
 ```bash
-wget https://raw.githubusercontent.com/TU_USUARIO/docker-kali-install/main/install_docker.sh
+wget https://raw.githubusercontent.com/EnriqueSLsys/docker-kali-install/main/install_docker.sh
 ```
 
 2. Dale permisos de ejecución:
@@ -33,7 +33,7 @@ sudo ./install_docker.sh
 2. En Windows, ejecuta como administrador:
 ```cmd
 cd "C:\Program Files\Oracle\VirtualBox"
-VBoxManage modifyvm "Kali linux 2024" --nested-hw-virt on
+VBoxManage modifyvm "NOMBRE_DE_TU_MAQUINA" --nested-hw-virt on
 ```
 3. Enciende tu máquina virtual
 4. Inicia Docker Desktop:
